@@ -1,5 +1,6 @@
 {
   "name": "wy-npm-demo",
+  "type": "module",
   "description": "test build-npm",
   "version": "1.0.6",
   "main": "index.js",
