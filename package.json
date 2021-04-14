@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "name": "wy-npm-demo",
+  "description": "test build-npm",
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wang9977/wy-npm-demo.git"
+  },
+  "author": "wy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wang9977/wy-npm-demo/issues"
+  },
+  "homepage": "https://github.com/Wang9977/wy-npm-demo#readme"
+}
