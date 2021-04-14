@@ -1,7 +1,7 @@
 {
   "name": "wy-npm-demo",
   "description": "test build-npm",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "main": "index.mjs",
   "repository": {
     "type": "git",
