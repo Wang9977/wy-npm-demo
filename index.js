@@ -1,4 +1,6 @@
-import moment from 'moment'
+// import moment from 'moment'
+// import moment from 'moment'
+const moment = require(moment)
 export function formatDateTime (value, type) {
 	type = (type === undefined ? 'YYYY-MM-DD' : type)
 	return moment(value).format(type)
