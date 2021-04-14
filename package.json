@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "build": "babel src -d lib"
-  },
   "type": "module",
   "name": "wy-npm-demo",
   "description": "test build-npm",
