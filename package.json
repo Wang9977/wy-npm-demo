@@ -2,7 +2,7 @@
   "name": "wy-npm-demo",
   "type": "module",
   "description": "test build-npm",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "repository": {
     "type": "git",
