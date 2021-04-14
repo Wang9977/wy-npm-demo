@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Wang9977/wy-npm-demo/issues"
   },
-  "homepage": "https://github.com/Wang9977/wy-npm-demo#readme"
+  "homepage": "https://github.com/Wang9977/wy-npm-demo#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
 }
