@@ -33,7 +33,7 @@ export const unique = (arr) => {
 
 
   export const map = (arr, fn, thisObj) => {
-	var scope = thisObj || window
+	var scope = thisObj
 	var a = []
 	for (var i = 0, j = arr.length; i < j; ++i) {
 	  var res = fn.call(scope, arr[i], i, this)
@@ -42,10 +42,13 @@ export const unique = (arr) => {
 	return a
   }
 
+  export const contains = (arr, val) => {
+	return arr.indexOf(val) != -1
+  }
   export const intersect = (a, b) => {
-	var _this = this
-	a = this.unique(a)
-	return this.map(a, function (o) {
-	  return _this.contains(b, o) ? o : null
+
+	a = unique(a)
+	return map(a, function (o) {
+	  return contains(b, o) ? o : null
 	})
   }
